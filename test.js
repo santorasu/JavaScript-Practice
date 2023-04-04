@@ -88,6 +88,7 @@ const theme = 'light'
 
 // let bgcolor = theme == 'light'? '#33333333' : '#efefef';
 // console.log(bgcolor);
+
 // const bgcolor = '';
 // if (theme == 'light'){
 //     bgcolor = '#333333';
@@ -95,3 +96,11 @@ const theme = 'light'
 // else{
 //     bgcolor = '#efefef';
 // }
+
+//Loop//
+let sum = 0;
+for(let i = 1; i<= 100; i++){
+    console.log(i); 
+    sum = sum + i;
+}
+console.log("Sum is "+sum);
