@@ -98,9 +98,56 @@ const theme = 'light'
 // }
 
 //Loop//
-let sum = 0;
-for(let i = 1; i<= 100; i++){
-    console.log(i); 
-    sum = sum + i;
-}
-console.log("Sum is "+sum);
+// let sum = 0;
+// for(let i = 1; i<= 100; i++){
+//     console.log(i); 
+//     sum = sum + i;
+// }
+// console.log("Sum is "+sum);
+// let i =1;
+// while(i<=100){
+// console.log(i);
+// i++
+// }
+
+//For in loop
+// cname = 'Santo Rasu'
+// for(let i in cname){
+// console.log(cname[i]);
+// }
+// console.log("\n")
+// // For of loop
+// for(let v of cname){
+//     console.log(v);
+// }
+
+//Array in JS
+let arr= [];
+ arr[0]= 1;
+ arr[1]= 2;
+ arr[2]= 3;
+ arr[3]= 4;
+ console.log(arr.length);
+ console.log(arr);
+ console.log(typeof(arr));
+
+ const names = [
+    'santo' , 'rasu' , 'Sabbir' , 'Rahim'
+    , 'Mahfuz'
+ ];
+ names[names.length]= 'abir khan'
+ console.log(names);
+ console.log(typeof(names));
+
+ //constructor pattern
+
+ const a1 = new Array();
+ console.log(a1,a1.length);
+
+ const a2 = new Array(5);
+ console.log(a2,a2.length);//5 empty items
+ 
+ const a3 = new Array(1,2,3,4,5,6);
+ console.log(a3,a3.length);
+
+ console.log(a1.__proto__constructor);
